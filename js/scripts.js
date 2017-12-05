@@ -5,11 +5,11 @@ var add = document.getElementById('addElem');
 
 add.addEventListener('click', function() {
 
-	var number = document.getElementsByTagName('li');
-	var liNumber = number.length;
+	var TagNames = document.getElementsByTagName('li');
+	var liCount = TagNames.length;
 
 	var element = document.createElement('li');
-	element.innerHTML = 'item ' + liNumber;
+	element.innerHTML = 'item ' + liCount;
 
 	list.appendChild(element);
 });
